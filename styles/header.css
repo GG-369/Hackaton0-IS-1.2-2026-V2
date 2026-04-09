@@ -1,0 +1,5 @@
+/* Header Block */
+.header {
+  position: relative;
+  z-index: 100;
+}
