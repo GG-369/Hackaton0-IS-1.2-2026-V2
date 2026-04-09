@@ -1,3 +1,4 @@
+
 /* Team Block */
 .team {
   padding: var(--space-xxl) 0;
@@ -166,3 +167,4 @@
 @media (max-width: 480px) {
   .team__grid { grid-template-columns: 1fr; }
 }
+

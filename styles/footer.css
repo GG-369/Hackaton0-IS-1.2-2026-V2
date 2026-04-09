@@ -21,6 +21,10 @@
 
 .footer__brand { text-align: left; }
 
+.footer__brand {
+  text-align: left;
+}
+
 .footer__logo {
   color: var(--color-accent);
   font-size: var(--font-size-xl);
@@ -57,7 +61,13 @@
   color: var(--color-secondary);
 }
 
+
 .footer__link i { font-size: 18px; }
+
+.footer__link i {
+  font-size: 18px;
+}
+
 
 .footer__bottom {
   border-top: 1px solid rgba(196, 181, 253, 0.2);
@@ -72,7 +82,9 @@
   font-size: var(--font-size-small);
 }
 
+
 /* Responsive Design */
+
 @media (max-width: 768px) {
   .footer__content {
     grid-template-columns: 1fr;
@@ -81,9 +93,13 @@
   }
 
   .footer__brand { text-align: center; }
+  .footer__brand {
+    text-align: center;
+  }
 
   .footer__links {
     justify-content: center;
     flex-wrap: wrap;
   }
 }
+
